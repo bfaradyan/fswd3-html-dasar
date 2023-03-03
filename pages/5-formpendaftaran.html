@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Tugas FSWD 4</h1>
+        <h3>Form Pendaftaran</h3>
+    </header>
+    <nav>
+        <a href="/index.html">Back to home</a>
+    </nav>
+    <section style="margin-top: 5rem;">
+        <h1>Form Pendaftaran SIB 2023</h1>
+        <form action="#">
+            <label for="fullname">Nama Lengkap:</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="Masukkan nama lengkap"><br>
+            <label for="youremail">Email:</label><br>
+            <input type="email" id="youremail" name="youremail" placeholder="Masukkan email"><br>
+            <label for="phonenumber">No HP:</label><br>
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Masukkan nomor HP"><br>
+            <label for="gender">Jenis Kelamin</label><br>
+            <input type="radio" id="male" name="gender" value="Laki-laki">
+            <label for="male">Laki-laki</label><br>
+            <input type="radio" id="female" name="gender" value="Perempua">
+            <label for="female">Perempuan</label><br>
+            <label for="departments">Jurusan</label><br>
+            <select name="departments" id="departments">
+                <option value="si">Sistem Informasi</option>
+                <option value="ti">Teknologi Informasi</option>
+                <option value="if">Informatika</option>
+            </select><br>
+            <label for="address">Alamat</label><br>
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Masukkan alamat"></textarea><br>
+            <label for="photo">Foto</label><br>
+            <input type="file" name="photo" id="photo"><br>
+            <input type="button" value="daftar">
+        </form>
+    </section>
+</body>
+</html>
