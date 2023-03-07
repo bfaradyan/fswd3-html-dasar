@@ -1,0 +1,33 @@
+body {
+    font-family: Poppins;
+    background-color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    margin: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    border: 5px solid rgb(89, 89, 223);
+    border-radius: 7px;
+    margin: 0 5rem;
+}
+
+.card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    border: 5px solid rgb(223, 89, 100);
+    border-radius: 7px;
+    margin: 0 5rem;
+}
+
+.container {
+    padding: 2px 16px;
+  }
