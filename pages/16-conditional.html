@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional</title>
+</head>
+<body>
+    <script>
+        //if
+        function ifConditional(){
+        let respond = prompt('7 + 3 = ...');
+
+        if (respond == 10) {
+            alert("Kamu benar")
+        }
+        }
+        ifConditional();
+
+        //if-else
+        function ifelseConditional(){
+        let respond = prompt('7 + 3 = ...');
+
+        if (respond == 10) {
+            alert("Kamu benar");
+        }else {
+            alert("Kamu salah");
+        }
+        }
+        ifeseConditional();
+
+        //else-if
+        function elseifConditional() {
+        let respond = prompt("Input you ip's! 1 -- 100 scale.")
+
+        if (respond >=70 && respond <=100) {
+            alert("Keep it up!");
+        } else if (respond <70 && respond >=0){
+            alert("Learn more subject bro!")
+        } else
+            alert("Wrong input")
+        }
+        elseifConditional();
+
+        //switch
+        function switchConditional() {
+            let respond = prompt(
+                "Choose your favorite company \n 1.Arkatama \n 2.Microsoft \n 3.Adobe");
+
+            switch (respond) {
+                case "1":
+                    alert("Salary: IDR 1.000.000")
+                    break;
+            
+                case "2":
+                    alert("Salary: IDR 2.000.000")
+                    break;
+            
+                case "3":
+                    alert("Salary: IDR 3.000.000")
+                    break;
+            
+                default:
+                    break;
+            }
+        }
+        switchConditional();
+    </script>
+</body>
+</html>
