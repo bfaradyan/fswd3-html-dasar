@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    margin: 2em auto;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inside-jumbotron {
+    width: 50%;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+
+.nav-ul > li {
+    margin: 0 1em;
+}
+
+.jumbotron {
+    background-color: rgba(174, 196, 252, 0.966);
+}
+
+.container {
+    width: 75%;
+    margin: 2em;
+}
+
+.right-article {
+    width: 25%;
+    margin: 2em;
+}
+
+.main {
+    display: flex;
+    background-color: rgb(247, 246, 246);
+}
+
+.card-container {
+    display: flex;
+}
+
+.card{
+    background:#fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    margin:1em;
+    padding: 1em;
+    width: 35%;
+}
+
+img{
+    width: 50%;
+    border-radius: 5px;
+}
+
+.article-ul {
+    margin-top: 2em;
+    list-style: none;
+}
+
+.article-ul > li {
+    margin-top: 1em;
+}
+
+@media screen and (max-width:700px) {
+    nav, .nav-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-ul {
+        margin-top: 1em;
+    }
+    li {
+        margin: 5px 0;
+    }
+    .jumbotron, .inside-jumbotron {
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .main {
+        flex-direction: column;
+    }
+}
